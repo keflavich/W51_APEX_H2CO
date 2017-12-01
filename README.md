@@ -11,3 +11,9 @@ spectra of them with some line identifications overlaid.  This is a fairly
 simple script, with most of the length dedicated to line frequency
 specifications.  This can be modified to take Gaussian-weighted averages
 to mimic extragalactic beams, for example.
+
+
+`retrieve_data.py` retrieves the raw data from the ESO archive; it shouldn't be
+needed except to reduce the data.  The data were reduced using
+https://github.com/keflavich/sdpy, but the scripts may be lost to a dead hard
+drive.
